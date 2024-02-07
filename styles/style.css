@@ -220,8 +220,6 @@ body {
   align-items: center;
 }
 
-.faq__content {
-}
 .faq__collapsible {
   max-height: 0;
   transition: max-height 0.3s ease;
@@ -440,9 +438,6 @@ body {
   }
   .talk h2 {
     font-size: 24px;
-  }
-  .footer__links {
-    /* gap: 30px; */
   }
   .nav {
     gap: 10px;

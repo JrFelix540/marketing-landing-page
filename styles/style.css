@@ -222,11 +222,13 @@ body {
 
 .faq__collapsible {
   max-height: 0;
-  transition: max-height 0.3s ease;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
   overflow: hidden;
 }
 .faq__collapsible.active {
   max-height: 450px;
+  opacity: 1;
 }
 .talk {
   background-image: url("../assets/talk-to-me-bg.png");
@@ -333,7 +335,7 @@ body {
 .minus-sign {
   position: relative;
   display: none;
-  width: 30px;
+  width: 50px;
   height: 4px;
   background-color: #e74c3c;
   cursor: pointer;
@@ -345,7 +347,7 @@ body {
 .minus-sign::before {
   content: "";
   position: absolute;
-  width: 30px;
+  width: 50px;
   height: 4px;
   background-color: #e74c3c;
   top: 50%;

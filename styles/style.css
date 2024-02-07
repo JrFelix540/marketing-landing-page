@@ -191,7 +191,11 @@ body {
   align-self: start;
   gap: 10px;
 }
-
+.faq__content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 .faq__header {
   height: 50px;
   display: flex;
